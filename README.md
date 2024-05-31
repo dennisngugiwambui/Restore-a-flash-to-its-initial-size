@@ -33,9 +33,10 @@ In the Command Prompt window, type the following command and press Enter:
 
 ```create partition primary```
 
-After creating the partition, you need to format it. You can use the format command with different parameters based on your preferences. For example, to format the partition with the NTFS file system and the default cluster size, use the following command:
+-After creating the partition, you need to format it. You can use the format command with different parameters based on your preferences. For example, to format the partition with the NTFS file system and the default cluster size, use the following command:
 
-Copy codeformat fs=ntfs quick
+
+```format fs=ntfs quick```
 If you want to perform a full format (which takes longer but is more thorough), omit the quick parameter.
 
 After the format is complete, you can exit the DiskPart utility by typing the following command:
