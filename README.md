@@ -3,26 +3,28 @@
 1. Open the Command Prompt as an administrator. You can search for "Command Prompt" in the Start menu, right-click on it, and select "Run as administrator".
 In the Command Prompt window, type the following command and press Enter:
 
-`diskpart`
+
+```diskpart```
+
 - This will open the DiskPart utility.
 
 - Next, type the following command to list all the available
-  `disk drives`
+  ```disk drives```
 
 
 - Identify the USB flash drive you want to format by checking the size and disk number.
 
 - Select the USB flash drive by typing the following command, replacing X with the disk number of your USB drive:
 
-Copy code
-select disk X
 
-Once the USB drive is selected, clean the drive by typing the following command:
+```select disk X```
 
-Copy codeclean
-This command will remove all partitions and data from the USB drive.
+- Once the USB drive is selected, clean the drive by typing the following command:
 
-Next, create a new primary partition on the USB drive:
+```clean```
+-This command will remove all partitions and data from the USB drive.
+
+-Next, create a new primary partition on the USB drive:
 
 Copy codecreate partition primary
 
