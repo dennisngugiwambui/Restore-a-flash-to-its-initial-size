@@ -29,7 +29,9 @@ In the Command Prompt window, type the following command and press Enter:
 
 -Next, create a new primary partition on the USB drive:
 
-Copy codecreate partition primary
+
+
+```create partition primary```
 
 After creating the partition, you need to format it. You can use the format command with different parameters based on your preferences. For example, to format the partition with the NTFS file system and the default cluster size, use the following command:
 
