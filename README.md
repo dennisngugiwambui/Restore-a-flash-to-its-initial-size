@@ -9,6 +9,7 @@ In the Command Prompt window, type the following command and press Enter:
 - This will open the DiskPart utility.
 
 - Next, type the following command to list all the available
+  
   ```disk drives```
 
 
@@ -17,9 +18,11 @@ In the Command Prompt window, type the following command and press Enter:
 - Select the USB flash drive by typing the following command, replacing X with the disk number of your USB drive:
 
 
+
 ```select disk X```
 
 - Once the USB drive is selected, clean the drive by typing the following command:
+  
 
 ```clean```
 -This command will remove all partitions and data from the USB drive.
