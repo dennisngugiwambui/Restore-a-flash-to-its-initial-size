@@ -42,5 +42,6 @@ If you want to perform a full format (which takes longer but is more thorough), 
 After the format is complete, you can exit the DiskPart utility by typing the following command:
 
 ```exit```
+
 Your USB flash drive should now be restored to its full capacity (16 GB in your case) and formatted with the file system you specified.
 Note: The diskpart utility is a powerful tool, and improper use can lead to data loss or system issues. Make sure to back up any important data before proceeding with these commands.
